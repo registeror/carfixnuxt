@@ -1,0 +1,8 @@
+# START nuxt-robots (indexable)
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+Sitemap: https://carfixnuxt-production-89aa.up.railway.app/sitemap.xml
+# END nuxt-robots
