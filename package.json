@@ -1,0 +1,51 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/robots": "^5.4.0",
+    "@nuxtjs/sitemap": "^7.4.3",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@sendgrid/mail": "^8.1.5",
+    "@vueuse/schema-org": "^2.2.0",
+    "axios": "^1.10.0",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "bull": "^4.16.5",
+    "cleave.js": "^1.6.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "csrf-csrf": "^4.0.3",
+    "csurf": "^1.2.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.1",
+    "glob": "^11.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.14.2",
+    "mongoose": "^8.12.1",
+    "nodemailer": "^7.0.5",
+    "nuxt": "^3.14.1592",
+    "pinia": "^3.0.1",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "v-click-outside": "^3.2.0",
+    "vue": "latest",
+    "vue-cleave": "^1.2.2",
+    "vue-currency-input": "^3.2.1",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^2.4.1",
+    "@types/cleave.js": "^1.4.12",
+    "fs": "^0.0.1-security",
+    "nuxt-security": "^2.2.0",
+    "path": "^0.12.7"
+  }
+}
