@@ -1,0 +1,1 @@
+const a=(r,e,s)=>{const o=["https://localhost:3000"],t=r.headers.origin||r.headers.referer;if(r.method==="OPTIONS")return s();if(!t||!o.some(i=>t.startsWith(i)))return e.status(403).json({error:"Доступ запрещен"});s()};export{a as default};
