@@ -1,1 +1,0 @@
-const t=(s,r,e)=>{if(["GET","HEAD","OPTIONS"].includes(s.method))return e();const c=s.cookies.csrf,o=s.headers["x-xsrf-token"];if(!c||!o||c!==o)return r.status(403).json({success:!1,message:"Недействительный CSRF-токен"});e()};export{t as default};
